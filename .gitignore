@@ -1,0 +1,23 @@
+# Ignoruj pliki baz danych (SQL Server i SQLite)
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Ignoruj pliki z danymi (często są za duże na Git)
+*.csv
+*.xlsx
+
+# Ignoruj obrazy (PNG, JPG itd.)
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Ignoruj pliki systemowe i konfiguracyjne VS Code
+.vscode/
+*.code-workspace
+
+# Ignoruj foldery Pythona
+__pycache__/
+venv/
