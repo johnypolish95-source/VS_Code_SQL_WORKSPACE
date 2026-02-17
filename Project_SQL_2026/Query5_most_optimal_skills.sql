@@ -30,7 +30,7 @@ WITH skills_demand AS (
     GROUP BY skills_job_dim.skill_id
 )
 
-SELECT TOP 25
+SELECT TOP 20
         skills_demand.skill_id,
          skills_demand.skills,
          skills_demand.demand_count,
