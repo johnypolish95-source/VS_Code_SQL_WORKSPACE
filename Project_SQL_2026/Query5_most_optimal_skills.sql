@@ -37,7 +37,7 @@ SELECT TOP 25
          average_salary.avg_salary
 FROM skills_demand
 INNER JOIN average_salary ON skills_demand.skill_id = average_salary.skill_id
-WHERE demand_count > 30 AND avg_salary > 50000
+WHERE demand_count > 30 AND avg_salary > 70000
 ORDER BY demand_count DESC, avg_salary DESC;
 
 
