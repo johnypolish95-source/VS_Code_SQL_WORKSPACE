@@ -1,4 +1,4 @@
-USE DataJobs_Database
+USE DataJobs_Database -- Replace with your actual database name
 GO
 
 SELECT TOP 1000
