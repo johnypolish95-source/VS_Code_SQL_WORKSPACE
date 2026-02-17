@@ -17,6 +17,8 @@
 # Ignoruj pliki systemowe i konfiguracyjne VS Code
 .vscode/
 *.code-workspace
+VS_Code_SQL_WORKSPACE_2026.code-workspace
+
 
 # Ignoruj foldery Pythona
 __pycache__/
